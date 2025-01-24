@@ -1,0 +1,40 @@
+# Log files
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build output directories
+dist
+dist-ssr
+build
+
+# Local environment variables
+*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+
+# IDE-specific files
+*.iml
+*.ipr
+*.iws
